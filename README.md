@@ -52,7 +52,7 @@ after further analysis and testing, we finally found the protagonist: FairPlay
 
 there is very little information about FairPlay on the Internet. we can only know that it is a system used by apple to protect ipa from unauthorized installation and use. it includes the user-mode fairplayd daemon and the kernel iokit extension.
 
-when we started analyzing the fairplayd binary, we realized that it was an ollvm hell, with all functions and instructions highly obfuscated, without any symbolic information, no logs, even no any useful strings. fortunately we were donated a an advanced tool to analyze obfuscated code. 
+when we started analyzing the fairplayd binary, we realized that it was an ollvm hell, all functions and instructions highly obfuscated, no any symbolic information, no logs, even no any useful strings. fortunately we were donated an advanced tool to analyze obfuscated code. 
 
 ![image](https://github.com/RootHide/FairFree/assets/134120506/93a15761-f29d-4a25-adb2-552830dc2793)
 
@@ -67,11 +67,11 @@ after a whole month of analysis and debugging, we finally successfully decrypted
 
 the priv field is almost the encrypted backup of the first half of sinf. so we only have to modify the plaintext mode and the encrypted mode at the same time to install and run any iOS app on macos without restrictions.
 
-the decryption function seemed to be a variant of AES128, with all cryptographic loops fully unrolled, and had almost 8000 local variables after obfuscated. so we wrote a script to hack it on specific devices and ios versions.
+the decryption function seemed to be a variant of AES128, with all cryptographic loops fully expanded, and had almost 8000 local variables after obfuscated. so we wrote a script to hack it on specific device and ios version.
 
 ## Enjoy it
 
-How To Use:
+how to use:
 
 1. device iphone X & ios15.3.1
 2. jailbreak & install frida-server
