@@ -50,7 +50,7 @@ after further analysis and testing, we finally found the protagonist: FairPlay
 
 there is very little information about FairPlay on the Internet. we can only know that it is a system used by apple to protect ipa from unauthorized installation and use. it includes the user-mode fairplayd daemon and the kernel iokit extension.
 
-when we started analyzing the fairplayd binary, we realized that it was an ollvm hell, with all functions and instructions highly obfuscated, without any symbolic information, no logs, even no any useful strings. fortunately we were donated a an advanced tool to deobfuscate ollvm. 
+when we started analyzing the fairplayd binary, we realized that it was an ollvm hell, with all functions and instructions highly obfuscated, without any symbolic information, no logs, even no any useful strings. fortunately we were donated a an advanced tool to analyze obfuscated code. 
 
 ![image](https://github.com/RootHide/FairFree/assets/134120506/93a15761-f29d-4a25-adb2-552830dc2793)
 
