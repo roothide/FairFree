@@ -59,7 +59,7 @@ when we started analyzing the fairplayd binary, we realized that it was an ollvm
 ![image](https://github.com/RootHide/FairFree/assets/134120506/b888d78c-5d07-4acb-87fb-68f965640ef8)
 
 
-# Death and reborn
+## Death and reborn
 
 after a whole month of analysis and debugging, we finally successfully decrypted the priv field and could freely modify the sinf file. 
 
