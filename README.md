@@ -84,3 +84,8 @@ how to use:
 9. copy ipa file to macos and install
 10. login the apple id in macos appstore
 11. launch the app in macos
+
+## Does it safe?
+
+Yes, we only modify sinf to re-authorize the ipa, and the sandbox will prevent the app from accessing the sinf file (which contains the private information of the appleid), so the app cannot find out that it has been modified.
+
