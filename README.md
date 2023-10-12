@@ -46,7 +46,7 @@ the only feasible way is to find the correct way to modify the mode value. after
 <img width="565" alt="image" src="https://github.com/RootHide/FairFree/assets/134120506/a7100f3a-5e6d-47dd-853c-aa8357cc74c6">
 
 
-## Into hell
+## Into the hell
 
 after further analysis and testing, we finally found the protagonist: FairPlay
 
@@ -58,6 +58,8 @@ when we started analyzing the fairplayd binary, we realized that it was an ollvm
 
 ![image](https://github.com/RootHide/FairFree/assets/134120506/b888d78c-5d07-4acb-87fb-68f965640ef8)
 
+
+# Death and reborn
 
 after a whole month of analysis and debugging, we finally successfully decrypted the priv field and could freely modify the sinf file. 
 
