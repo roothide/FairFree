@@ -1,5 +1,7 @@
 # FairFree
-jailbreak any ipa, let it run on apple silicon macos without decrypted.
+
+jailbreak any ipa and run on apple silicon M1/M2 macOS without decrypted.
+
 
 ## Initial thought
 
