@@ -9,7 +9,7 @@ so everyone began to look for other methods, such as decrypting all mach-o in th
 
 and running decrypted ipa in macos usually requires disabling SIP and re-signing the ipa with a valid certificate, which undoubtedly adds a lot of trouble. many people also use PlayCover to run decrypted apps without re-signing the ipa, but it is convert ios app to catalysts app, some apps may not run properly.
 
-<img width="412" alt="image" src="https://github.com/RootHide/FairFree/assets/134120506/d8d73673-9ce4-478e-8cce-b7dd949243b8">
+<img width="699" alt="image" src="https://github.com/RootHide/FairFree/assets/134120506/f6c1887d-790e-4f76-8773-decfbd2d783e">
 
 ## Investigate
 
