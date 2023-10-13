@@ -73,7 +73,7 @@ the decryption function seemed to be a variant of AES128, with all cryptographic
 
 how to use:
 
-1. device iphone X & ios15.3.1
+1. device iphone X & ios13.5.1
 2. jailbreak & install frida-server
 3. login apple id in appstore & install the app
 4. ```chmod -R 777 /path/to/*.app/SC_Info/``` on ios
